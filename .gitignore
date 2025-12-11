@@ -1,0 +1,28 @@
+cd "C:\Users\user\Desktop\KM\KM frontend\pointer-ai-landing-page"
+
+@"
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# Lockfiles (keep only one if you need it)
+# package-lock.json
+pnpm-lock.yaml
+"@ | Out-File -Encoding UTF8 .gitignore

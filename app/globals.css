@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* KharchaMind AI Theme - Modern Fintech Aesthetic */
+    --background: 210 11% 7%; /* #0f1211 - Deep navy background */
+    --foreground: 160 14% 93%; /* #e7eceb - Light neutral text */
+
+    --muted: 240 2% 16%; /* #27272a - Muted backgrounds */
+    --muted-foreground: 160 14% 93% / 0.7; /* #e7eceb with opacity */
+    --muted-foreground-light: 160 14% 93% / 0.5; 
+    --muted-foreground-dark: 160 14% 93% / 0.6; 
+
+    --card: 220 17% 98% / 0.01;
+    --card-foreground: 160 14% 93%;
+
+    --popover: 210 11% 7%;
+    --popover-foreground: 160 14% 93%;
+
+    /* Primary: Vibrant teal-green for KharchaMind - representing growth and financial wisdom */
+    --primary: 175 85% 55%; /* #2dd4bf - Vibrant teal */
+    --primary-foreground: 160 8% 6%; /* #0d0f0e - Dark text on primary */
+    --primary-dark: 175 100% 40%; /* Darker teal for hover states */
+    --primary-light: 175 60% 75%; /* #86f3e0 - Lighter teal for accents */
+
+    /* Secondary: Clean white for contrast and trust */
+    --secondary: 160 14% 93%; /* #e7eceb - Light secondary */
+    --secondary-foreground: 165 14% 8%; /* #141a18 - Dark text on secondary */
+
+    --accent: 240 2% 25%; /* #3f3f42 - Subtle accent gray */
+    --accent-foreground: 240 2% 96%; /* #f4f4f5 */
+
+    --border: 240 100% 100% / 0.08;
+    --border-light: 210 17% 6% / 0.1;
+    --border-dark: 210 17% 6% / 0.05;
+
+    --ring: 175 85% 55%; /* Match primary for focus states */
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
