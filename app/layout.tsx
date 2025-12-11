@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Transform your financial management with AI-powered expense tracking, intelligent insights, and automated budgeting.',
   generator: 'v0.app',
   icons: {
-    icon: '/icon.svg',
+    icon: '/icons8-ai-64.png',
   },
 }
 
