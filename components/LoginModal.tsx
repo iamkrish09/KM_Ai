@@ -90,14 +90,14 @@ export default function LoginModal({ open, onClose }: { open: boolean; onClose: 
         </h2>
 
         {/* Google Login */}
-        <a href={`${API_BASE_URL}/auth/google`}>
+        {/* <a href={`${API_BASE_URL}/auth/google`}>
           <button
             type="button"
             className="w-full py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
           >
             Continue with Google
           </button>
-        </a>
+        </a> */}
 
         {/* Divider */}
         <div className="flex items-center my-4">

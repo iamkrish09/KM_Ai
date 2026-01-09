@@ -110,14 +110,14 @@ export function CTASection() {
             Hear how people simplify their finances, stay organized, and feel more in control of their money with KharchaMind's intelligent expense tracking.
           </p>
         </div>
-        <Link href="https://vercel.com/home" target="_blank" rel="noopener noreferrer">
+        {/* <Link href="https://vercel.com/home" target="_blank" rel="noopener noreferrer">
           <Button
             className="px-[30px] py-2 bg-secondary text-secondary-foreground text-base font-medium leading-6 rounded-[99px] shadow-[0px_0px_0px_4px_rgba(255,255,255,0.13)] hover:bg-secondary/90 transition-all duration-200"
             size="lg"
           >
             Signup for free
           </Button>
-        </Link>
+        </Link> */}
       </div>
     </section>
   )

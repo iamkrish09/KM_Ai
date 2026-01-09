@@ -39,11 +39,11 @@ export function HeroSection() {
         </p>
       </div>
 
-      <Link href="https://vercel.com/home" target="_blank" rel="noopener noreferrer">
+      {/* <Link href="https://vercel.com/home" target="_blank" rel="noopener noreferrer">
         <Button className="relative z-10 bg-primary text-primary-foreground hover:bg-primary-dark px-8 py-3 rounded-full font-medium text-base shadow-lg ring-1 ring-primary/20">
           Start Free Trial
         </Button>
-      </Link>
+      </Link> */}
     </section>
   )
 }
